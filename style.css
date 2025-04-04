@@ -1,0 +1,55 @@
+body {
+    background-color: #e165ecab;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+  }
+  
+  p {
+    margin-top: 5px;
+    margin-bottom: 5px;
+  }
+  
+  a {
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  .business-card {
+    width: 300px;
+    background-color: pink;
+    padding: 20px;
+    margin-top: 100px;
+    text-align: center;
+    font-size: 16px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+  }
+  
+  .profile-image {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+  }
+  
+  hr {
+    border: none; /* Elimina el borde predeterminado */
+    height: 4px; /* Ajusta el grosor del <hr> */
+    background: linear-gradient(
+      to right,
+      #ff9a9e,
+      #fad0c4
+    ); /* Añade un degradado compatible con tonos rosados */
+    border-radius: 20px; /* Redondea los bordes para darle suavidad */
+    margin: 20px 0; /* Añade espaciado vertical */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Añade un sutil efecto de sombra */
+  }
+  
+  .social-media {
+    margin: 10px 0;
+  }
